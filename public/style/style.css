@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    font-family: 'Amiri', serif, 'Arial', sans-serif;
+    color: bisque !important;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    overflow-y: visible;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+nav {
+    height: 5vh;
+}
+
+/**SOCIAL LINK**/
+
+.social_link {
+    height: 44px;
+    width: 44px;
+}
+
+.social_link img:hover {
+    height: 44px;
+    width: 44px;
+    transition-duration: 200ms;
+}
+
+/**COLOR**/
+
+/*answer_item*/
+.event_remove, .modal-content {
+    color: darkblue;
+    background-color: rgba(194, 186, 186, 0.815);
+}
+.li_style {
+    background-color: rgba(235, 227, 217, 0.8);
+}
+#show_corrects, #show_errors, #retry_btn, #button_play button, .li_style {
+    color: rgb(136, 88, 88)
+}
+
+/**SIZE**/
+
+#show_corrects, #show_errors {
+    font-size: xx-large;
+}
+.img_32 {
+    height: 32px;
+    width: 32px;
+}
+.img_128 {
+    height: 128px;
+    width: 128px;
+}
+
