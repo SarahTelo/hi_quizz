@@ -43,6 +43,7 @@ nav {
 .event_remove, .modal-content {
     color: darkblue;
     background-color: rgba(194, 186, 186, 0.815);
+    cursor: pointer;
 }
 .li_style {
     background-color: rgba(235, 227, 217, 0.8);
